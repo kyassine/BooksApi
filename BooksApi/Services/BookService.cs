@@ -7,6 +7,7 @@ namespace BooksApi.Services
 {
     public class BookService
     {
+        /// Books Array
         private readonly IMongoCollection<Book> _books;
 
         public BookService(IBookstoreDatabaseSettings settings)
